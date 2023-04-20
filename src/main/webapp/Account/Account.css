@@ -1,0 +1,184 @@
+/* nav bar */
+
+*{
+padding:0;
+margin:0;
+}
+#nav h2{
+	width:30%;
+	font-size:40px;
+	text-align:right;
+	color:white;
+}
+#logo{
+	display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+#logo img{
+	width:60px;
+	height:40px;
+}
+#nav{
+	display:flex;
+	align-items:center;
+	background-color: #1a1a00;
+	justify-content:space-between;
+}
+#nav h3{
+	color:white;
+	font-size: 20px;
+}
+#nav .menu {
+	margin-right:100px;
+	width:300px;
+	display:flex;
+	justify-content:flex-end;
+}
+#nav .menu a{
+	font-size:20px;
+	text-decoration:none;	
+	color:white;
+}
+#nav .menu a:hover{
+	color:#b3ff1a;
+}
+a{
+	padding:15px 10px;
+	text-decoration: none;
+}
+
+/* body image */
+
+
+.image1 a img {
+	width:150px;
+	height:150px;
+}
+.image1 a img:hover{
+	width:170px;
+	height:170px;
+}
+.image1{
+	display: flex;
+	justify-content: center;
+	align-items:center;
+}
+.image1 a figure figcaption{
+	align-text:center;
+}
+.image1 a{
+	margin-top:30px;
+	padding: 50px;
+	text-decoration:none;
+}
+.image2 a img {
+	width:150px;
+	height:150px;
+}
+.image2 a img:hover{
+	width:170px;
+	height:170px;
+}
+.image2{
+	display: flex;
+	justify-content: center;
+	align-items:center;
+}
+.image2 a figure figcaption{
+	align-text:center;
+}
+.image2 a{
+	padding: 30px;
+	text-decoration:none;
+}
+figure {
+  float: right;
+  width: 100%;
+  text-align: center;
+  font-style: italic;
+  font-size: smaller;
+  text-indent: 0;
+  border: thin silver solid;
+  border-radius: 15px;
+  margin: 0.5em;
+}
+
+/* deposit */
+
+table{
+	margin-top: 10px;
+	margin-bottom:10px;
+	font-size: 30px;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+label{
+	padding-left: 20px;
+}
+input{
+	width: 200px;
+	height: 30px;
+	border-radius:10px;
+	font-size: 20px;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+#submit{
+	width: 100px;
+	cursor: pointer;
+}
+#submit:hover{
+	background-color: #b3ff1a;
+}
+#deposit, #withdraw, #fundTransfer, #account, #history, #resetPassword, #resetPin{
+	display: flex;
+	justify-content: center;
+	border: solid;
+	border-radius:20px;
+	width:auto;
+	top:30%;
+	left:32%;
+	padding:20px auto 0px auto;
+	background-color: white; 
+	position: absolute;
+	z-index:1;
+}
+.head button{
+	margin-right: 20px;
+	margin-top: 10px;
+	width:20px;
+	height: 20px;
+	border: none;
+	background-color: white;
+	font-size: 20px;
+	cursor: pointer;
+}
+#deposit, #withdraw, #fundTransfer, #account, #history, #resetPassword, #resetPin{
+	display:none;
+}
+
+.head{
+	display:flex;
+	justify-content: space-between;
+	flex-direction: row;
+}
+.head h2{
+	margin-left: 100px;
+	margin-top: 10px;
+}
+
+.show tr, .show th, .show td {
+	border: solid 2px;
+	font-size: 20px;
+	padding: 5px;
+	border-radius: 5px;
+}
+#btn2, #btn1{
+	width: 120px;
+	height:30px;
+	border-radius: 10px;
+}
+#btn1:hover,#btn2:hover{
+	background-color: #b3ff1a;
+}

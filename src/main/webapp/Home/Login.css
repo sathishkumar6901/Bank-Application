@@ -1,0 +1,187 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	background-color: #ffffff;
+	background-size: cover;
+}
+
+#nav h2 {
+	width: 30%;
+	margin-top: 10px;
+	margin-left: 80px;
+	font-size: 40px;
+	text-align: right;
+	color: white;
+}
+
+h2 {
+	display: flex;
+	width: 100%;
+}
+
+#logo {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+
+#logo img {
+	width: 60px;
+	height: 40px;
+}
+
+#nav {
+	display: flex;
+	justify-content: space-between;
+	background-color: #1a1a00;
+}
+
+#nav h3 {
+	color: white;
+	font-size: 20px;
+}
+
+#nav .menu {
+	margin-right: 20px;
+	width: 150px;
+	display: flex;
+	justify-content: space-between;
+}
+
+#nav .menu a {
+	font-size: 20px;
+	text-decoration: none;
+	color: white;
+}
+
+#nav .menu a:hover {
+	color: #b3ff1a;
+}
+
+a {
+	padding: 15px 10px;
+}
+
+h1 {
+	text-align: center;
+	color: blue;
+	font-family: "calibri";
+}
+
+.input-group {
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 15px;
+}
+
+#loginform {
+	width: 300px;
+	height: 300px;
+	background-color: #ccffcc;
+	margin: 5% auto 0 auto;
+	border-radius: 10px;
+	padding: 10px;
+	margin: 10% auto 0 auto;
+}
+
+.submit {
+	background-color: #c0c0c0;
+	font-size: 15px;
+	color: black;
+	padding: 5px;
+	margin: 5px 0px;
+	border-radius: 10px;
+	width: 100%;
+	cursor: pointer;
+}
+
+.input-group input {
+	border-radius: 5px;
+	margin-top: 5px;
+	width: 95%;
+	height: 25px;
+	padding-left: 10px;
+	font-size: 15px;
+}
+
+.input-group select {
+	border-radius: 5px;
+	margin-top: 5px;
+	width: 75%;
+	height: 25px;
+	padding-left: 10px;
+	font-size: 15px;
+}
+
+#registerform {
+	width: 300px;
+	margin: 10px auto 0 auto;
+	background-color: #ccffcc;
+	border-radius: 10px;
+	padding: 10px;
+}
+
+#registerform .input-group input {
+	border-radius: 5px;
+	margin-top: 5px;
+	width: 70%;
+	height: 25px;
+	padding-left: 10px;
+	font-size: 15px;
+}
+
+.input-group .format {
+	display: flex;
+	flex-direction: row;
+	border-radius: 5px;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.input-group .format button {
+	height: 25px;
+	background-color: #c0c0c0;
+	border-radius: 5px;
+	padding: revert;
+	cursor: pointer;
+}
+
+#resetpassword {
+	width: 300px;
+	margin: 5% auto 0 auto;
+	background-color: #ccffcc;
+	border-radius: 10px;
+	padding: 10px;
+}
+
+#code {
+	background-color: #c0c0c0;
+	font-size: 15px;
+	color: black;
+	padding: 5px;
+	border-radius: 10px;
+	width: 150px;
+	cursor: pointer;
+}
+
+#registerform, #resetpassword {
+	display: none;
+}
+
+.swal2-popup #swal2-title {
+    display: block;
+    position: relative;
+    max-width: 100%;
+    margin: 0 0 .4em;
+    padding: 0;
+    color: #595959;
+    font-size: 1.875em;
+    font-weight: 400;
+    text-align: left;
+    text-transform: none;
+    word-wrap: break-word;
+    font-size: 20px;
+}
