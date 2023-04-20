@@ -25,8 +25,8 @@ public class MailSending {
 		boolean test =false;
 		
 		String toEmail = email;
-		String fromEmail = "sathish.skbank@gmail.com";
-		String password= "nijzdtjsvxqgzeuv";
+		String fromEmail = "something@gmail.com";
+		String password= "***************";
 		try {
 			Properties pr = new Properties();
 			pr.setProperty("mail.smtp.host","smtp.gmail.com");
